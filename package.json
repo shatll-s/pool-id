@@ -1,0 +1,28 @@
+{
+  "name": "@ninjaraider/pool-id",
+  "version": "1.0.0",
+  "description": "Pool ID generation and validation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./format": "./dist/format.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "crypto",
+    "pool",
+    "pool-id"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}

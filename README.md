@@ -5,13 +5,13 @@ HMAC-based short ID generation and validation.
 ## Install
 
 ```
-npm install @ninjaraider/pool-id
+npm install github:shatll-s/pool-id
 ```
 
 ## Usage
 
 ```js
-const { generate, validate, isPoolIdFormat } = require('@ninjaraider/pool-id')
+const { generate, validate, isPoolIdFormat } = require('pool-id')
 
 const id = generate('your-secret')  // e.g. "n37nea2fks"
 validate(id, 'your-secret')         // true
@@ -24,7 +24,7 @@ isPoolIdFormat(id)                   // true (no secret needed)
 `isPoolIdFormat` doesn't use Node.js `crypto` and works in browsers:
 
 ```js
-import { isPoolIdFormat } from '@ninjaraider/pool-id/format'
+import { isPoolIdFormat } from 'pool-id/format'
 ```
 
 ## Format

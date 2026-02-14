@@ -1,5 +1,5 @@
 {
-  "name": "@ninjaraider/pool-id",
+  "name": "pool-id",
   "version": "1.0.0",
   "description": "Pool ID generation and validation",
   "main": "dist/index.js",
